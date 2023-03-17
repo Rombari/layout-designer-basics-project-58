@@ -30,7 +30,7 @@
     }
     
     header::before {
-      background-image: url('C:\Users\ASUS\layout-designer-basics-project-58\background.png'); 
+      background-image: url('/mnt/c/Users/ASUS/layout-designer-basics-project-58/background.png'); 
       background-repeat: no-repeat;
       background-size: cover;
       opacity: 0.9;
