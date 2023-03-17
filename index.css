@@ -29,7 +29,7 @@ h2 {
 h3 {
     font-size: 34px;
 }
-section {
+header, main, footer {
     max-width: 1100px;
     text-align: center;
     margin-top: 100px;
