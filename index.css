@@ -3,7 +3,7 @@
     --color-translucent-white: #d7ccc0;
     --color-light: #f5f4f0;
     --color-main: #fe8a02;
-    --color-main:  #42413c;
+    --color-main-dark: #42413c;
     --color-dark: #2a2626;
     --color-translucent-dark: #908d8b;
     --color-brown: #b09a81;
@@ -18,7 +18,7 @@
     }
     h1 {
       font-size: 72px;
-      text-align: left;
+     
     }
     h2 {
         font-size: 60px;
@@ -27,7 +27,7 @@
         font-size: 34px;
     }
 
-    .header {
+    header.header {
       font-family: "Neucha";
       line-height: 1.2em;
 
@@ -35,7 +35,7 @@
     }
 
 
-    .header::before {
+    header.header::before {
       content: "";
       display: block;
       background-image: url('layout-designer-basics-project-58/background.png'); 
@@ -43,7 +43,7 @@
       background-size: cover;
       opacity: 0.9;
     }
-    .header, .content-part, .footer {
+    header.header, .content-part, .footer {
         max-width: 1100px;
         margin-top: 100px;
         margin-bottom: 100px;
@@ -63,6 +63,120 @@
     }
     .text {
       text-align: left;
+    }
+    .video {
+      filter: drop-shadow(0 16px 32px rgba(0 0 0 / 15%));
+    }
+    
+    .numbers {
+      margin-bottom: 40px;
+      font-size: 64px;
+      font-family: "Neucha";
+      line-height: 1.0;
+      color: var(--color-dark);
+    }
+    .catalog {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      background: var(--color-dark);
+    }
+    .catalog a {
+      text-decoration: none;
+    }
+    .catalog > .card > p {
+      color: var(--color-main);
+    }
+    .card {
+      text-align: left;
+      padding: 24px;
+      width: 250px;
+      background: var(--color-white);
+    }
+    
+    .ikea-effect {
+      padding-top: 100px;
+      padding-bottom: 100px;
+      text-align: left;
+    }
+    .ikea-effect .header {
+      margin-top: 100px;
+      margin-bottom: 20px;
+    }
+    .ikea-image-text, .ikea-text {
+      column-count: 2;
+      column-gap: 30px;
+    }
+    .ikea-effect > .ikea-image-text > img {
+      vertical-align: middle;
+    }
+
+    .premature-optimization {
+      text-align: left;
+      padding-top: 100px;
+      padding-bottom: 100px;
+    }
+    .premature-optimization .header {
+      margin-top: 100px;
+      margin-bottom: 20px;
+    }
+    .premature-image-text, .premature-text {
+      column-count: 2;
+      column-gap: 30px;
+    }
+    .premature-optimization > .premature-image-text > img {
+      vertical-align: middle;
+    }
+
+    .distortion-of-novelty {
+      text-align: left;
+      padding-top: 100px;
+      padding-bottom: 100px;
+    }
+    .distortion-of-novelty .header {
+      margin-top: 100px;
+      margin-bottom: 20px;
+    }
+    .distortion-image-text, .distortion-text {
+      column-count: 2;
+      column-gap: 30px;
+    }
+    .distortion-of-novelty > .distortion-image-text > img {
+      vertical-align: middle;
+    }
+
+    .hyperbolic-depreciation {
+      text-align: left;
+      padding-top: 100px;
+      padding-bottom: 100px;
+    }
+    .hyperbolic-depreciation .header {
+      margin-top: 100px;
+      margin-bottom: 20px;
+    }
+    .hyperbolic-image-text, .hyperbolic-text {
+      column-count: 2;
+      column-gap: 30px;
+    }
+    .hyperbolic-depreciation > .hyperbolic-image-text > img {
+      vertical-align: middle;
+    }
+
+    .errors-in-planning {
+      text-align: left;
+      padding-top: 100px;
+      padding-bottom: 100px;
+    }
+    .errors-in-planning .header {
+      margin-top: 100px;
+      margin-bottom: 20px;
+    }
+    .errors-image-text, .errors-text {
+      column-count: 2;
+      column-gap: 30px;
+    }
+    .errors-in-planning > .errors-image-text > img {
+      vertical-align: middle;
     }
 
     
