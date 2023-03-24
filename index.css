@@ -14,7 +14,12 @@
         font-family: "Open Sans";
         font-size: 16px;
         line-height: 1.6em;
-        color: #2A2626;
+        color: var(--color-dark);
+    }
+    h1, h2, h3 {
+      font-family: "Neucha";
+      src: url("../fonts/Neucha-Regular.ttf");
+      line-height: 1.2em;
     }
     h1 {
       font-size: 72px;
@@ -28,26 +33,27 @@
     }
 
     header.header {
-      font-family: "Neucha";
-      line-height: 1.2em;
-
+      text-align: left;
+      background:var(--color-light);
+    
       position: relative;
     }
 
-
     header.header::before {
-      content: "";
+      content: '';
       display: block;
-      background-image: url('layout-designer-basics-project-58/background.png'); 
+      background-image: url('images/background.png'); 
       background-repeat: no-repeat;
       background-size: cover;
       opacity: 0.9;
+      height: 1100px;
+      width: 1500px;
     }
-    header.header, .content-part, .footer {
-        max-width: 1100px;
-        margin-top: 100px;
-        margin-bottom: 100px;
-        text-align: center;
+    header, main, footer {
+      max-width: 1110px;
+      margin-top: 100px;
+      margin-bottom: 100px;
+      text-align: center;
     }
     .tota {
       position: absolute;
@@ -56,10 +62,40 @@
       right: -270px;
       height: 525px;
     }
+    header.header h1 {
+      position: absolute;
+
+      top: 50px;
+      left: 170px;
+      color: var(--color-main);
+    }
+    header.header h1:last-of-type {
+      position: absolute;
+
+      top: 220px;
+      left: 170px;
+      color: var(--color-dark);
+    }
+    .header .text {
+      position: absolute;
+      
+      top: 550px;
+      left: 170px;
+
+      column-count: 2;
+      column-gap: 20px;
+      width: 90%;
+    }
     .button {
+      position: absolute;
+      bottom: 300px;
+      right: 280px;
+
       padding: 12px 24px;
       font-weight: bold;
       text-decoration: none;
+      color: var(--color-white);
+      background: var(--color-main);
     }
     .text {
       text-align: left;
@@ -178,5 +214,38 @@
     .errors-in-planning > .errors-image-text > img {
       vertical-align: middle;
     }
+
+    .footer {
+      column-count: 2;
+      text-align: left;
+
+      position: relative;
+    }
+
+    input {
+      height: 16px;
+      padding: 15px;
+      width: 400px;
+    }
+    .agreement {
+      font-size: 12px;
+    }
+    .contact-info {
+      margin-top: 60px;
+      font-size: 14px;
+      text-align: center;
+    }
+    .airplane {
+      position: absolute;
+      top: 42px;
+      right: 100px;
+
+      height: 50px;
+      width: 70px;
+      border: none;
+    }
+    
+
+    
 
     
