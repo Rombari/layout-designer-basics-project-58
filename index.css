@@ -18,7 +18,7 @@
     }
     h1, h2, h3 {
       font-family: "Neucha";
-      src: url("../fonts/Neucha-Regular.ttf");
+      src: url("fonts/Neucha-Regular.ttf");
       line-height: 1.2em;
     }
     h1 {
@@ -47,7 +47,7 @@
       background-size: cover;
       opacity: 0.9;
       height: 1100px;
-      width: 1500px;
+      width: 1100px;
     }
     header, main, footer {
       max-width: 1110px;
@@ -100,8 +100,16 @@
     .text {
       text-align: left;
     }
+
+    .introduction h1 {
+      color: var(--color-main);
+    }
+    .introduction h1:last-of-type {
+      color: var(--color-dark);
+    }
     .video {
       filter: drop-shadow(0 16px 32px rgba(0 0 0 / 15%));
+      margin-top: 30px;
     }
     
     .numbers {
@@ -134,10 +142,29 @@
       padding-top: 100px;
       padding-bottom: 100px;
       text-align: left;
+      background: var(--color-light);
+
+      position: relative;
+    }
+    .ikea-effect::before {
+      position: absolute;
+      top: 0px;
+      left: 0px;
+
+      content: '';
+      display: block;
+      background-image: url('images/background.png'); 
+      background-repeat: no-repeat;
+      background-size: cover;
+      opacity: 0.9;
+      width: 1100px;
+      height: 900px;
     }
     .ikea-effect .header {
       margin-top: 100px;
       margin-bottom: 20px;
+      background: var(--color-brown);
+      color: var(--color-light);
     }
     .ikea-image-text, .ikea-text {
       column-count: 2;
@@ -151,10 +178,30 @@
       text-align: left;
       padding-top: 100px;
       padding-bottom: 100px;
+      background: var(--color-brown);
+      color: var(--color-white);
+
+      position: relative;
+    }
+    .premature-optimization::before {
+      position: absolute;
+      top: 0px;
+      left: 0px;
+
+      content: '';
+      display: block;
+      background-image: url('images/background.png'); 
+      background-repeat: no-repeat;
+      background-size: cover;
+      opacity: 0.9;
+      width: 1100px;
+      height: 850px;
     }
     .premature-optimization .header {
       margin-top: 100px;
       margin-bottom: 20px;
+      color: var(--color-brown);
+      background: var(--color-white);
     }
     .premature-image-text, .premature-text {
       column-count: 2;
@@ -168,10 +215,29 @@
       text-align: left;
       padding-top: 100px;
       padding-bottom: 100px;
+      background: var(--color-light);
+
+      position: relative;
+    }
+    .distortion-of-novelty::before {
+      position: absolute;
+      top: 0px;
+      left: 0px;
+
+      content: '';
+      display: block;
+      background-image: url('images/background.png'); 
+      background-repeat: no-repeat;
+      background-size: cover;
+      opacity: 0.9;
+      width: 1100px;
+      height: 850px;
     }
     .distortion-of-novelty .header {
       margin-top: 100px;
       margin-bottom: 20px;
+      color: var(--color-white);
+      background: var(--color-brown);
     }
     .distortion-image-text, .distortion-text {
       column-count: 2;
@@ -185,10 +251,30 @@
       text-align: left;
       padding-top: 100px;
       padding-bottom: 100px;
+      background: var(--color-brown);
+      color: var(--color-white);
+
+      position: relative;
+    }
+    .hyperbolic-depreciation::before {
+      position: absolute;
+      top: 0px;
+      left: 0px;
+
+      content: '';
+      display: block;
+      background-image: url('images/background.png'); 
+      background-repeat: no-repeat;
+      background-size: cover;
+      opacity: 0.9;
+      width: 1100px;
+      height: 850px;
     }
     .hyperbolic-depreciation .header {
       margin-top: 100px;
       margin-bottom: 20px;
+      background: var(--color-white);
+      color: var(--color-brown);
     }
     .hyperbolic-image-text, .hyperbolic-text {
       column-count: 2;
@@ -202,10 +288,15 @@
       text-align: left;
       padding-top: 100px;
       padding-bottom: 100px;
+      background: var(--color-light);
+
+      position: relative;
     }
     .errors-in-planning .header {
       margin-top: 100px;
       margin-bottom: 20px;
+      background: var(--color-brown);
+      color: var(--color-white);
     }
     .errors-image-text, .errors-text {
       column-count: 2;
@@ -218,6 +309,8 @@
     .footer {
       column-count: 2;
       text-align: left;
+      background: var(--color-main-dark);
+      color: var(--color-white);
 
       position: relative;
     }
@@ -237,12 +330,18 @@
     }
     .airplane {
       position: absolute;
-      top: 42px;
-      right: 100px;
+      top: 83px;
+      right: 44px;
 
       height: 50px;
       width: 70px;
       border: none;
+      background: var(--color-main);
+      cursor: pointer;
+    }
+
+    .contact-info {
+      max-width: 1100px;
     }
     
 
