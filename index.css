@@ -120,6 +120,7 @@
   }
   
   .numbers {
+    margin-top: 10px;
     margin-bottom: 40px;
     font-size: 64px;
     font-family: "Neucha";
@@ -128,20 +129,26 @@
   }
   .catalog {
     display: grid;
+    grid-template-columns: repeat(3, 1fr);
     background: var(--color-dark);
-    width: 1440px;
+    max-width: 1440px;
+    width: 80%;
   
+    font-family: 'Neucha';
   }
   .catalog a {
     text-decoration: none;
   }
   .catalog > .card > p {
     color: var(--color-main);
+    font-family: "Open Sans";
   }
   .card {
+    display: block;
     text-align: left;
     padding: 24px;
-    width: 250px;
+    max-width: 300px;
+    height: 70%;
     background: var(--color-white);
   }
   
@@ -339,8 +346,6 @@
 
   .hyperbolic-depreciation {
     text-align: left;
-    padding-top: 100px;
-    padding-bottom: 100px;
     background: var(--color-brown);
     color: var(--color-white);
     width: 1440px;
@@ -355,18 +360,50 @@
     background-repeat: no-repeat;
     background-size: cover;
     opacity: 0.09;
-    width: 100%;
+    width: 1440px;
     height: 960px;
   }
   .hyperbolic-depreciation .header {
+    position: absolute;
+    bottom: 285px;
+    left: 165px;
+
     margin-top: 100px;
     margin-bottom: 20px;
+    padding-left: 10px;
     background: var(--color-white);
     color: var(--color-brown);
+    width: 1110px;
   }
-  .hyperbolic-image-text, .hyperbolic-text {
+  .hyperbolic-image-text {
+    position: absolute;
+    top: 80px;
+    left: 165px;
+
     column-count: 2;
     column-gap: 30px;
+    font-family: 'Neucha';
+    color: var(--color-light);
+    width: 73%;
+  }
+  .hyperbolic-text {
+    position: absolute;
+    bottom: 130px;
+    left: 165px;
+
+    column-count: 2;
+    column-gap: 30px;
+    width: 77%;
+  }
+  .hyperbolic-image-text p:first-of-type {
+    color: var(--color-translucent-white);
+    font-size: 25px;
+    margin-bottom: 0;
+  }
+  .hyperbolic-image-text p:last-of-type {
+    font-size: 34px;
+    line-height: 1.2;
+    margin-top: 30px;
   }
   .hyperbolic-depreciation > .hyperbolic-image-text > img {
     vertical-align: middle;
@@ -374,8 +411,6 @@
 
   .errors-in-planning {
     text-align: left;
-    padding-top: 100px;
-    padding-bottom: 100px;
     background: var(--color-light);
     width: 1440px;
 
@@ -389,18 +424,50 @@
     background-repeat: no-repeat;
     background-size: cover;
     opacity: 0.09;
-    width: 100%;
+    width: 1440px;
     height: 960px;
   }
   .errors-in-planning .header {
+    position: absolute;
+    bottom: 280px;
+    left: 165px;
+
     margin-top: 100px;
     margin-bottom: 20px;
+    padding-left: 10px;
     background: var(--color-brown);
     color: var(--color-white);
+    width: 1110px;
   }
-  .errors-image-text, .errors-text {
+  .errors-image-text {
+    position: absolute;
+    top: 100px;
+    left: 165px;
+
     column-count: 2;
     column-gap: 30px;
+    font-family: 'Neucha';
+    color: var(--color-main-dark);
+    width: 82%;
+  }
+  .errors-text {
+    position: absolute;
+    bottom: 155px;
+    left: 165px;
+
+    column-count: 2;
+    column-gap: 30px;
+    width: 77%;
+  }
+  .errors-image-text p:first-of-type {
+    color: var(--color-translucent-white);
+    font-size: 25px;
+    margin-bottom: 0;
+  }
+  .errors-image-text p:last-of-type {
+    font-size: 34px;
+    line-height: 1.2;
+    margin-top: 30px;
   }
   .errors-in-planning > .errors-image-text > img {
     vertical-align: middle;
