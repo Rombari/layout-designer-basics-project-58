@@ -131,8 +131,8 @@
   }
   .catalog {
     display: grid;
-    grid-template-columns: repeat(3, 350px);
-    grid-template-rows: repeat(2, 350px);
+    grid-template-columns: repeat(3, 390px);
+    grid-template-rows: repeat(2, 380px);
     justify-content: center;
     align-items: baseline;
     width: 1440px;
@@ -145,18 +145,36 @@
   }
   .catalog > .card > p {
     color: var(--color-main);
-    font-family: "Open Sans";
   }
   .card {
-    max-width: 300px;
-    max-height: 350px;
+    width: 310px;
+    height: 310px;
+    margin-top: 70px;
 
     text-align: left;
     padding: 24px;
-    background: var(--color-white);
+    background: var(--color-light);
+  }
+  .card-name {
+    color: var(--color-main);
+    font-size: 36px;
+    line-height: 1.2;
+  }
+  .card-text-description {
+    margin-top: -20px;
+    font-family: "Open Sans";
+    color: var(--color-main-dark);
   }
   .title-topic {
     font-size: 52px;
+    line-height: 1.2;
+    color: var(--color-main);
+    width: 340px;
+    height: 310px;
+
+  }
+  .colortext {
+    color: var(--color-white);
   }
   
   .ikea-effect {
