@@ -123,7 +123,7 @@
   }
   .video {
     position: absolute;
-    top: 329px;
+    top: 310px;
     left: 261px;
 
     filter: drop-shadow(0 16px 32px rgba(0 0 0 / 15%));
@@ -133,7 +133,7 @@
   }
   .introduction p {
     position: absolute;
-    top: 273px;
+    top: 263px;
     left: 500px;
 
     text-align: center;
@@ -155,7 +155,7 @@
   }
   .separatecatalog {
     position: absolute;
-    top: -70px;
+    top: -100px;
     left: 5px;
 
     display: grid;
@@ -164,7 +164,7 @@
     justify-content: center;
     width: 1440px;
     height: 891px;
-    padding-top: 100px;
+    padding-top: 200px;
     font-family: 'Neucha';
     background: var(--color-main-dark);
   }
