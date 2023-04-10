@@ -534,7 +534,6 @@
 
   .footer {
     text-align: left;
-    margin-top: 100px;
     color: var(--color-light);
     width: 1440px;
     height: 581px;
@@ -544,12 +543,12 @@
   .footer .left-side {
     position: absolute;
     top: 10px;
-    left: 60px;
+    left: 220px;
   }
   .footer .right-side {
     position: absolute;
     top: 15px;
-    right: 100px;
+    right: 220px;
   }
 
   input {
@@ -594,10 +593,10 @@
     margin: 0;
   }
   .only {
+    margin: 100px auto;
     background: var(--color-main-dark);
     width: 1110px;
     height: 190px;
-    width: 100%;
   }
   
 
