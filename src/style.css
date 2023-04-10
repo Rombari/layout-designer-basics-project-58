@@ -144,7 +144,7 @@
   .catalog {
     width: 1440px;
     height: 991px;
-    margin-top: -25px;
+    margin-top: 0px;
 
     position: relative;
     z-index: 1;
