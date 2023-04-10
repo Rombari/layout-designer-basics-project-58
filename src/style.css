@@ -534,7 +534,7 @@
 
   .footer {
     text-align: left;
-    color: var(--color-light);
+    color: var(--color-white);
     width: 1440px;
     height: 581px;
 
@@ -561,7 +561,7 @@
   }
   .contact-info {
     position: absolute;
-    bottom: 180px;
+    bottom: 210px;
     left: 460px;
 
     margin-top: 60px;
@@ -593,7 +593,8 @@
     margin: 0;
   }
   .only {
-    margin: 100px auto;
+    margin: 150px auto;
+    align-items: center;
     background: var(--color-main-dark);
     width: 1110px;
     height: 190px;
