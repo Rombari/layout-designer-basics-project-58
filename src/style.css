@@ -162,7 +162,7 @@
 
     display: grid;
     grid-template-columns: repeat(3, 390px);
-    grid-template-rows: repeat(2, 380px);
+    grid-template-rows: repeat(2, 360px);
     justify-content: center;
     width: 1440px;
     height: 891px;
@@ -180,7 +180,16 @@
   }
   .card {
     width: 310px;
-    height: 310px;
+    height: 320px;
+    margin-top: 70px;
+
+    text-align: left;
+    padding: 24px;
+    background: var(--color-light);
+  }
+  .card-smaller {
+    width: 310px;
+    height: 290px;
     margin-top: 70px;
 
     text-align: left;
