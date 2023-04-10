@@ -112,7 +112,7 @@
   .introduction-title {
     position: absolute;
     top: 100px;
-    left: 410px;
+    left: 430px;
 
   }
   .introduction h2 {
@@ -136,7 +136,7 @@
   .introduction p {
     position: absolute;
     top: 263px;
-    left: 510px;
+    left: 530px;
 
     text-align: center;
   }
@@ -157,7 +157,7 @@
   }
   .separatecatalog {
     position: absolute;
-    top: -100px;
+    top: -200px;
     left: 5px;
 
     display: grid;
@@ -168,7 +168,7 @@
     height: 891px;
     padding-top: 200px;
     padding-left: 20px;
-    padding-bottom: 0px;
+    padding-bottom: 20px;
     font-family: 'Neucha';
     background: var(--color-main-dark);
   }
