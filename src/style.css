@@ -103,24 +103,48 @@
   .text {
     text-align: left;
   }
-
-  .introduction h1 {
+  .introduction {
+    width: 1440px;
+    height: 914px;
+    position: relative;
+  }
+  .introduction-title {
+    position: absolute;
+    top: 100px;
+    left: 400px;
+  }
+  .introduction h2 {
     color: var(--color-dark);
     text-align: center;
     margin: 0;
   }
-  .introduction h1:last-of-type {
+  .introduction h2:last-of-type {
     color: var(--color-main);
   }
   .video {
+    position: absolute;
+    top: 329px;
+    left: 261px;
+
     filter: drop-shadow(0 16px 32px rgba(0 0 0 / 15%));
     margin-top: 30px;
-    width: 1110px;
+    width: 919px;
+    z-index: 2;
   }
   .introduction p {
+    position: absolute;
+    top: 273px;
+    left: 500px;
+
     text-align: center;
   }
-  
+  .catalog {
+    width: 1440px;
+    height: 991px;
+
+    position: relative;
+    z-index: 1;
+  }
   .numbers {
     margin-top: 10px;
     margin-bottom: 40px;
@@ -129,13 +153,18 @@
     line-height: 1.0;
     color: var(--color-dark);
   }
-  .catalog {
+  .separatecatalog {
+    position: absolute;
+    top: -70px;
+    left: 5px;
+
     display: grid;
     grid-template-columns: repeat(3, 390px);
     grid-template-rows: repeat(2, 380px);
     justify-content: center;
     width: 1440px;
     height: 891px;
+    padding-top: 100px;
     font-family: 'Neucha';
     background: var(--color-main-dark);
   }
