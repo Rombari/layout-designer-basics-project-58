@@ -542,13 +542,13 @@
   }
   .footer .left-side {
     position: absolute;
-    top: 10px;
-    left: 220px;
+    top: 20px;
+    left: 60px;
   }
   .footer .right-side {
     position: absolute;
-    top: 15px;
-    right: 220px;
+    top: 20px;
+    right: 60px;
   }
 
   input {
@@ -558,10 +558,11 @@
   }
   .agreement {
     font-size: 12px;
+    margin-top: -10px;
   }
   .contact-info {
     position: absolute;
-    bottom: 210px;
+    bottom: 140px;
     left: 460px;
 
     margin-top: 60px;
@@ -593,8 +594,10 @@
     margin: 0;
   }
   .only {
-    margin: 150px auto;
-    align-items: center;
+    position: absolute;
+    top: 100px;
+    left: 165px;
+
     background: var(--color-main-dark);
     width: 1110px;
     height: 190px;
