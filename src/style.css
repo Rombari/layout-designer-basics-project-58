@@ -126,7 +126,7 @@
   }
   .video {
     position: absolute;
-    top: 310px;
+    top: 300px;
     left: 261px;
 
     filter: drop-shadow(0 16px 32px rgba(0 0 0 / 15%));
@@ -162,7 +162,7 @@
 
     display: grid;
     grid-template-columns: repeat(3, 390px);
-    grid-template-rows: repeat(2, 360px);
+    grid-template-rows: repeat(2, 350px);
     justify-content: center;
     width: 1440px;
     height: 891px;
@@ -212,7 +212,7 @@
     color: var(--color-main);
     width: 340px;
     height: 310px;
-    margin-top: 95px;
+    margin-top: 90px;
 
   }
   .colortext {
