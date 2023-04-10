@@ -132,6 +132,7 @@
     filter: drop-shadow(0 16px 32px rgba(0 0 0 / 15%));
     margin-top: 30px;
     width: 919px;
+    height: 569px;
   }
   .introduction p {
     position: absolute;
@@ -143,7 +144,7 @@
   .catalog {
     width: 1440px;
     height: 991px;
-    margin-top: -75px;
+    margin-top: -50px;
 
     position: relative;
     z-index: 1;
@@ -167,7 +168,7 @@
     justify-content: center;
     width: 1440px;
     height: 891px;
-    padding-top: 210px;
+    padding-top: 215px;
     padding-left: 20px;
     padding-bottom: 0px;
     font-family: 'Neucha';
