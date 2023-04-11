@@ -221,7 +221,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     opacity: 0.09;
-    width: 1440px;
+    width: 100%;
     height: 960px;
 
   }
@@ -496,6 +496,7 @@
     text-align: left;
     background: var(--color-light);
     width: 1440px;
+    height: 919px;
 
     position: relative;
   }
@@ -507,11 +508,11 @@
     background-size: cover;
     opacity: 0.09;
     width: 100%;
-    height: 960px;
+    height: 919px;
   }
   .errors-in-planning .header {
     position: absolute;
-    bottom: 280px;
+    bottom: 240px;
     left: 165px;
 
     margin-top: 100px;
@@ -532,9 +533,12 @@
     color: var(--color-main-dark);
     width: 82%;
   }
+  .errors-image-text h2 {
+    font-weight: normal;
+  }
   .errors-text {
     position: absolute;
-    bottom: 155px;
+    bottom: 110px;
     left: 165px;
 
     column-count: 2;
