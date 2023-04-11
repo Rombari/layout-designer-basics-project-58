@@ -533,6 +533,10 @@
     color: var(--color-main-dark);
     width: 82%;
   }
+  .tota-with-clock {
+    width: 578px;
+    height: 434px;
+  }
   .errors-image-text h2 {
     font-weight: normal;
   }
