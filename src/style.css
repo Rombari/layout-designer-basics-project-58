@@ -530,7 +530,7 @@
     column-count: 2;
     column-gap: 30px;
     font-family: 'Neucha';
-    color: var(--color-main-dark);
+    color: var(--color-dark);
     width: 82%;
   }
   .tota-with-clock {
@@ -548,12 +548,13 @@
     column-count: 2;
     column-gap: 30px;
     width: 77%;
+    color: var(--color-dark);
   }
   .errors-text > div {
     break-inside: avoid;
   }
   .errors-image-text p:first-of-type {
-    color: var(--color-translucent-white);
+    color: var(--color-main-dark);
     font-size: 25px;
     margin-bottom: 0;
   }
