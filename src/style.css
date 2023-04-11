@@ -134,9 +134,7 @@
   }
   .catalog {
     width: 1440px;
-    height: 991px;
-    margin-top: 0px;
-    margin-bottom: 0px;
+    height: 891px;
 
     position: relative;
     z-index: 1;
@@ -150,19 +148,14 @@
     color: var(--color-dark);
   }
   .separatecatalog {
-    position: absolute;
-    top: 0px;
-    left: 5px;
-
     display: grid;
     grid-template-columns: repeat(3, 380px);
     grid-template-rows: repeat(2, 350px);
     justify-content: center;
     width: 1440px;
     height: 891px;
-    padding-top: 220px;
+    padding-top: 200px;
     padding-left: 10px;
-    margin-bottom: 100px;
     font-family: 'Neucha';
     background: var(--color-main-dark);
   }
