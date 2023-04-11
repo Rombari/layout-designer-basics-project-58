@@ -107,7 +107,7 @@
     width: 1440px;
     height: 914px;
     margin-top: 100px;
-    margin-bottom: -243px;
+    margin-bottom: -218px;
     text-align: center;
 
     z-index: 2;
@@ -134,7 +134,7 @@
   }
   .catalog {
     width: 1440px;
-    height: 891px;
+    height: 991px;
     margin-top: 0px;
 
     position: relative;
@@ -150,7 +150,7 @@
   }
   .separatecatalog {
     position: absolute;
-    top: -100px;
+    top: -50px;
     left: 5px;
 
     display: grid;
