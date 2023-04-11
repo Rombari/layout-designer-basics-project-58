@@ -134,7 +134,7 @@
   }
   .catalog {
     width: 1440px;
-    height: 891px;
+    height: 991px;
     margin-top: 0px;
     margin-bottom: 0px;
 
@@ -151,7 +151,7 @@
   }
   .separatecatalog {
     position: absolute;
-    top: -100px;
+    top: 0px;
     left: 5px;
 
     display: grid;
