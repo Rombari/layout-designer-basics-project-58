@@ -105,19 +105,16 @@
   }
   .introduction {
     width: 1440px;
-    height: 850px;
-    position: relative;
+    height: 914px;
+    margin-top: 100px;
+    margin-bottom: -193px;
+    text-align: center;
+
     z-index: 2;
   }
-  .introduction-title {
-    position: absolute;
-    top: 100px;
-    left: 430px;
-
-  }
+  
   .introduction h2 {
     color: var(--color-dark);
-    text-align: center;
     margin: 0;
     font-weight: normal;
   }
@@ -125,21 +122,10 @@
     color: var(--color-main);
   }
   .video {
-    position: absolute;
-    top: 300px;
-    left: 261px;
-
     filter: drop-shadow(0 16px 32px rgba(0 0 0 / 15%));
     margin-top: 30px;
     width: 919px;
     height: 569px;
-  }
-  .introduction p {
-    position: absolute;
-    top: 263px;
-    left: 530px;
-
-    text-align: center;
   }
   .catalog {
     width: 1440px;
