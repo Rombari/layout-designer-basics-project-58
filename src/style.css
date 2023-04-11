@@ -513,7 +513,7 @@
   .errors-in-planning .header {
     position: absolute;
     bottom: 240px;
-    left: 165px;
+    left: 160px;
 
     margin-top: 100px;
     margin-bottom: 20px;
@@ -525,7 +525,7 @@
   .errors-image-text {
     position: absolute;
     top: 100px;
-    left: 165px;
+    left: 160px;
 
     column-count: 2;
     column-gap: 30px;
@@ -539,7 +539,7 @@
   .errors-text {
     position: absolute;
     bottom: 110px;
-    left: 165px;
+    left: 160px;
 
     column-count: 2;
     column-gap: 30px;
