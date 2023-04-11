@@ -150,7 +150,7 @@
   }
   .separatecatalog {
     position: absolute;
-    top: -50px;
+    top: -100px;
     left: 5px;
 
     display: grid;
