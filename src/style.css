@@ -124,7 +124,7 @@
   }
   .video {
     filter: drop-shadow(0 16px 32px rgba(0 0 0 / 15%));
-    margin-top: 30px;
+    margin-top: 40px;
     width: 919px;
     height: 569px;
   }
@@ -134,7 +134,7 @@
   }
   .catalog {
     width: 1440px;
-    height: 891px;
+    height: 1000px;
 
     position: relative;
     z-index: 1;
@@ -154,7 +154,7 @@
     justify-content: center;
     width: 1440px;
     height: 891px;
-    padding-top: 100px;
+    padding-top: 125px;
     padding-left: 10px;
     font-family: 'Neucha';
     background: var(--color-main-dark);
