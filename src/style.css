@@ -211,7 +211,7 @@
     background: var(--color-light);
     justify-items: center;
     width: 1440px;
-    height: 910px;
+    height: 900px;
     margin-top: 15px;
 
     position: relative;
@@ -514,7 +514,7 @@
     text-align: left;
     background: var(--color-light);
     width: 1440px;
-    height: 919px;
+    height: 910px;
 
     position: relative;
   }
