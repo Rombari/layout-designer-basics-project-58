@@ -458,7 +458,7 @@
     z-index: 1;
   }
   .hyperbolic-depreciation .header {
-    margin-top: 95.5px;
+    margin-top: 94.5px;
     margin-bottom: 20px;
     margin-left: 165px;
     padding-left: 10px;
@@ -473,7 +473,7 @@
     column-gap: 30px;
     font-family: 'Neucha';
     color: var(--color-light);
-    width: 72.5%;
+    width: 71.8%;
 
     position: relative;
     z-index: 2;
