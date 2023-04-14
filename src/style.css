@@ -438,7 +438,7 @@
     background: var(--color-brown);
     color: var(--color-white);
     width: 1440px;
-    height: 932px;
+    height: 930px;
 
     position: relative;
   }
@@ -467,7 +467,7 @@
     width: 1110px;
   }
   .hyperbolic-image-text {
-    padding-top: 80px;
+    padding-top: 79px;
     padding-left: 165px;
     column-count: 2;
     column-gap: 30px;
@@ -488,7 +488,7 @@
     margin-left: 165px;
     column-count: 2;
     column-gap: 30px;
-    width: 76.6%;
+    width: 76.4%;
   }
   .hyperbolic-text div {
   break-inside: avoid;
