@@ -513,6 +513,9 @@
   .hyperbolic-depreciation h2, h5 {
     margin: 0;
   }
+  .hyperbolic-depreciation h5 {
+    font-size: 14px;
+  }
 
   .errors-in-planning {
     text-align: left;
