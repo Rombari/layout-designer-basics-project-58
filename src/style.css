@@ -364,7 +364,7 @@
     text-align: left;
     background: var(--color-light);
     width: 1440px;
-    height: 960px;
+    height: 855px;
 
     position: relative;
   }
@@ -399,7 +399,7 @@
     column-gap: 30px;
     font-family: 'Neucha';
     color: var(--color-main-dark);
-    width: 82%;
+    width: 82.5%;
 
     position: relative;
     z-index: 2;
@@ -438,7 +438,7 @@
     background: var(--color-brown);
     color: var(--color-white);
     width: 1440px;
-    height: 937px;
+    height: 932px;
 
     position: relative;
   }
