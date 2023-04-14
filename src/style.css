@@ -438,7 +438,7 @@
     background: var(--color-brown);
     color: var(--color-white);
     width: 1440px;
-    height: 928px;
+    height: 930px;
 
     position: relative;
   }
@@ -467,7 +467,7 @@
     width: 1110px;
   }
   .hyperbolic-image-text {
-    padding-top: 79px;
+    padding-top: 78px;
     padding-left: 165px;
     column-count: 2;
     column-gap: 30px;
@@ -478,6 +478,7 @@
     position: relative;
     z-index: 2;
   }
+
   .hyperbolic-image-text h2 {
     font-weight: normal;
   }
