@@ -478,6 +478,9 @@
     position: relative;
     z-index: 2;
   }
+  .hyperbolic-image-text > div > p:first-of-type {
+    font-size: 24px;
+  }
 
   .hyperbolic-image-text h2 {
     font-weight: normal;
