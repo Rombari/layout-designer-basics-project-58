@@ -211,7 +211,7 @@
     background: var(--color-light);
     justify-items: center;
     width: 1440px;
-    height: 900px;
+    height: 905px;
     margin-top: 15px;
 
     position: relative;
@@ -250,7 +250,7 @@
     color: var(--color-main-dark);
     z-index: 2;
     position: relative;
-    width: 82.8%;
+    width: 82.5%;
   }
   .ikea-image-text h2 {
     font-weight: normal;
