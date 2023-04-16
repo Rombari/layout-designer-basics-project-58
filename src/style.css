@@ -327,7 +327,7 @@
     column-count: 2;
     column-gap: 30px;
     font-family: 'Neucha';
-    width: 72%;
+    width: 82%;
 
     position: relative;
     z-index: 2;
@@ -349,7 +349,7 @@
     column-count: 2;
     column-gap: 30px;
     font-family: 'Open Sans';
-    width: 77.5%;
+    width: 87%;
   }
   .premature-image-text p:first-of-type {
     color: var(--color-translucent-white);
