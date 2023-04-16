@@ -289,9 +289,8 @@
     text-align: left;
     background: var(--color-brown);
     color: var(--color-light);
-width: 73%;
+    width: 1440px;
     min-height: 855px;
-    height: 100%;
     padding-left: 165px;
  
     position: relative;
