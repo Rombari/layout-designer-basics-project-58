@@ -323,7 +323,7 @@
     column-count: 2;
     column-gap: 30px;
     font-family: 'Neucha';
-    width: 72%;
+    min-width: 72%;
 
     position: relative;
     z-index: 2;
