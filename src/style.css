@@ -285,7 +285,6 @@
   }
 
   .premature-optimization {
-    display: block;
     text-align: left;
     background: var(--color-brown);
     color: var(--color-light);
@@ -325,6 +324,7 @@
     column-gap: 30px;
     font-family: 'Neucha';
     width: 72%;
+    max-height: 450px;
 
     position: relative;
     z-index: 2;
