@@ -290,7 +290,7 @@
     background: var(--color-brown);
     color: var(--color-light);
     width: 1440px;
-    max-height: 1055px;
+    max-height: 1255px;
     min-height: 855px;
  
     position: relative;
@@ -328,7 +328,7 @@
     column-count: 2;
     column-gap: 30px;
     font-family: 'Neucha';
-    width: 82%;
+    width: 81.5%;
 
     position: relative;
     z-index: 2;
