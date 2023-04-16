@@ -289,10 +289,11 @@
     text-align: left;
     background: var(--color-brown);
     color: var(--color-light);
-    width: 1440px;
+    min-width: 1440px;
     min-height: 855px;
-    height: 100%;
-    max-width: 100%;
+    padding-left: 165px;
+ 
+
 
     position: relative;
   }
@@ -314,7 +315,7 @@
   .premature-optimization .header {
     margin-top: 90px;
     margin-bottom: 20px;
-    margin-left: 165px;
+
     padding-left: 10px;
     color: var(--color-brown);
     background: var(--color-white);
@@ -322,7 +323,7 @@
   }
   .premature-image-text {
     padding-top: 75px;
-    padding-left: 165px;
+
     column-count: 2;
     column-gap: 30px;
     font-family: 'Neucha';
@@ -344,7 +345,7 @@
     margin-top: -24px;
   }
   .premature-text {
-    margin-left: 165px;
+
     column-count: 2;
     column-gap: 30px;
     font-family: 'Open Sans';
