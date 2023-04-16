@@ -289,12 +289,11 @@
     text-align: left;
     background: var(--color-brown);
     color: var(--color-light);
-    min-width: 1440px;
+width: 73%;
     min-height: 855px;
+    height: 100%;
     padding-left: 165px;
  
-
-
     position: relative;
   }
   .premature-optimization::before {
