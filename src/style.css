@@ -290,6 +290,7 @@
     background: var(--color-brown);
     color: var(--color-light);
     width: 1440px;
+    max-height: 1055px;
     min-height: 855px;
  
     position: relative;
