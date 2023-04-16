@@ -288,7 +288,7 @@
     text-align: left;
     background: var(--color-brown);
     color: var(--color-light);
-    min-width: 1440px;
+    width: 1440px;
     min-height: 855px;
 
     position: relative;
@@ -327,6 +327,7 @@
 
     position: relative;
     z-index: 2;
+    break-inside: avoid;
   }
   .premature-image-text h2 {
     font-weight: normal;
