@@ -291,9 +291,11 @@
     color: var(--color-light);
     width: 1440px;
     min-height: 855px;
-    padding-left: 165px;
  
     position: relative;
+  }
+  .premature-optimization > div {
+    margin-left: 165px;
   }
   .premature-optimization::before {
     position: absolute;
