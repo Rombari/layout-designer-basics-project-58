@@ -285,12 +285,10 @@
   }
 
   .premature-optimization {
-    display: flex;
-    flex-wrap: wrap;
     text-align: left;
     background: var(--color-brown);
     color: var(--color-light);
-    width: 1440px;
+    min-width: 1440px;
     min-height: 855px;
 
     position: relative;
