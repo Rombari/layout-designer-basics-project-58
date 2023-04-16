@@ -285,6 +285,7 @@
   }
 
   .premature-optimization {
+    display: block;
     text-align: left;
     background: var(--color-brown);
     color: var(--color-light);
@@ -318,7 +319,6 @@
     width: 1110px;
   }
   .premature-image-text {
-    display: block;
     padding-top: 75px;
     padding-left: 165px;
     column-count: 2;
