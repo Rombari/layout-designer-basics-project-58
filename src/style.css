@@ -297,7 +297,8 @@
   }
   .premature-optimization > div {
     margin-left: 165px;
-    margin-bottom: 200px;
+    padding-top: 75px;
+
   }
   .premature-optimization::before {
     position: absolute;
@@ -326,7 +327,7 @@
     width: 1110px;
   }
   .premature-image-text {
-    padding-top: 75px;
+
 
     column-count: 2;
     column-gap: 30px;
