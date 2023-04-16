@@ -318,12 +318,13 @@
     width: 1110px;
   }
   .premature-image-text {
+    display: block;
     padding-top: 75px;
     padding-left: 165px;
     column-count: 2;
     column-gap: 30px;
     font-family: 'Neucha';
-    min-width: 72%;
+    width: 72%;
 
     position: relative;
     z-index: 2;
