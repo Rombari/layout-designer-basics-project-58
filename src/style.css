@@ -289,7 +289,7 @@
     background: var(--color-brown);
     color: var(--color-light);
     width: 1440px;
-    height: 855px;
+    min-height: 855px;
 
     position: relative;
   }
