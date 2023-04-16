@@ -27,7 +27,6 @@
   }
   h2 {
       font-size: 60px;
-      color: var(--color-main);
       font-weight: normal;
   }
   h3 {
@@ -291,7 +290,8 @@
     background: var(--color-brown);
     color: var(--color-light);
     width: 1440px;
-    min-height: 955px;
+    min-height: 855px;
+    height: 100%;
 
     position: relative;
   }
