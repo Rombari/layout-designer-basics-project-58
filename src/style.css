@@ -292,6 +292,7 @@
     width: 1440px;
     min-height: 855px;
     height: 100%;
+    max-width: 100%;
 
     position: relative;
   }
