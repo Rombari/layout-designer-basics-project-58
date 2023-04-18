@@ -318,13 +318,14 @@
     height: 100%;
   }
   .premature-optimization .header {
-    margin-top: 92px;
+    margin-top: 94px;
     margin-bottom: 20px;
 
     padding-left: 10px;
     color: var(--color-brown);
     background: var(--color-white);
     width: 1110px;
+    font-size: 16.5px;
   }
   .premature-image-text {
 
@@ -358,7 +359,7 @@
   }
   .premature-image-text p:first-of-type {
     color: var(--color-translucent-white);
-    font-size: 25px;
+    font-size: 24px;
   }
   .premature-optimization > .premature-image-text > img {
     vertical-align: middle;
