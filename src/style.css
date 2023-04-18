@@ -291,8 +291,8 @@
     color: var(--color-light);
     width: 1440px;
     max-height: 1255px;
-    min-height: 855px;
-    padding-top: 75px;
+    min-height: 780px;
+    padding-top: 77px;
  
     position: relative;
   }
