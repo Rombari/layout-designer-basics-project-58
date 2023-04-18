@@ -297,8 +297,7 @@
   }
   .premature-optimization > div {
     margin-left: 165px;
-    margin-top: 75px;
-    padding-top: 75px;
+    padding-top: 76px;
 
   }
   .premature-optimization::before {
@@ -355,7 +354,7 @@
     column-count: 2;
     column-gap: 30px;
     font-family: 'Open Sans';
-    width: 87.5%;
+    width: 87.6%;
   }
   .premature-image-text p:first-of-type {
     color: var(--color-translucent-white);
