@@ -292,12 +292,13 @@
     width: 1440px;
     max-height: 1255px;
     min-height: 855px;
+    padding-top: 75px;
  
     position: relative;
   }
   .premature-optimization > div {
     margin-left: 165px;
-    padding-top: 75px;
+
 
   }
   .premature-optimization::before {
