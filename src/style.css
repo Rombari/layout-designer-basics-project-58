@@ -292,7 +292,7 @@
     width: 1440px;
     max-height: 1255px;
     min-height: 780px;
-    padding-top: 79px;
+    padding-top: 77px;
  
     position: relative;
   }
@@ -349,7 +349,7 @@
   .premature-image-text p:last-of-type {
     font-size: 34px;
     line-height: 1.2;
-    margin-top: -24px;
+    margin-top: -22px;
   }
   .premature-text {
 
