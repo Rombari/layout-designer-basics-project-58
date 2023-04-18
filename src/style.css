@@ -297,7 +297,7 @@
   }
   .premature-optimization > div {
     margin-left: 165px;
-    padding-top: 75px;
+    margin-top: 75px;
 
   }
   .premature-optimization::before {
