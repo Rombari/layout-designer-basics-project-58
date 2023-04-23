@@ -411,7 +411,7 @@ header.header h1:last-of-type {
   text-align: left;
   background: var(--color-light);
   width: 1440px;
-  padding-bottom: 100px;
+  padding-bottom: 75px;
   position: relative;
 }
 
@@ -473,7 +473,7 @@ header.header h1:last-of-type {
 .distortion-image-text p:last-of-type {
   font-size: 34px;
   line-height: 1.2;
-  margin-top: -20px;
+  margin-top: -19px;
 }
 
 .distortion-text {
@@ -487,7 +487,7 @@ header.header h1:last-of-type {
 }
 
 .distortion-of-novelty h2 {
-  margin-top: -22px;
+  margin-top: -23px;
 }
 
 .distortion-of-novelty h5 {
