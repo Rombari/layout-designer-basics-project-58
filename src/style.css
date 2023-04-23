@@ -290,7 +290,6 @@
     background: var(--color-brown);
     color: var(--color-light);
     width: 1440px;
-    min-height: 780px;
     padding-top: 75px;
   
     position: relative;
@@ -310,6 +309,7 @@
     content: '';
     display: block;
     background-image: url('images/background.png'); 
+    background-size: cover;
     opacity: 0.09;
     z-index: 1;
   }
