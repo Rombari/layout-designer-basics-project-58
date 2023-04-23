@@ -596,7 +596,7 @@ header.header h1:last-of-type {
   text-align: left;
   background: var(--color-light);
   width: 1440px;
-  padding-bottom: 100px;
+  padding-bottom: 125px;
   position: relative;
 }
 
@@ -622,7 +622,7 @@ header.header h1:last-of-type {
 }
 
 .errors-in-planning .header {
-  margin-top: 91.5px;
+  margin-top: 92px;
   margin-bottom: 20px;
   padding-left: 10px;
   background: var(--color-brown);
