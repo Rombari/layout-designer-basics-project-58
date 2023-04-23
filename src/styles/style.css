@@ -230,11 +230,16 @@ header.header h1:last-of-type {
 .ikea-effect {
   text-align: left;
   background: var(--color-light);
-  justify-items: center;
   width: 1440px;
-  height: 905px;
   margin-top: 15px;
+  padding-top: 75px;
+  padding-bottom: 100px;
   position: relative;
+}
+.ikea-full-picture {
+  max-width: 1110px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .ikea-effect::before {
@@ -255,24 +260,31 @@ header.header h1:last-of-type {
 .ikea-effect .header {
   margin-top: 90px;
   margin-bottom: 20px;
-  margin-left: 165px;
   padding-left: 10px;
   background: var(--color-brown);
   color: var(--color-light);
-  width: 1110px;
   font-family: "Open Sans";
 }
 
 .ikea-image-text {
-  padding-top: 100px;
-  padding-left: 165px;
-  column-count: 2;
-  column-gap: 30px;
+  display: flex;
   font-family: Neucha;
   color: var(--color-main-dark);
   z-index: 2;
   position: relative;
-  width: 82.5%;
+}
+
+.ikea-left-side {
+  flex-basis: 500px;
+}
+
+.ikea-right-side {
+  margin-left: 25px;
+  flex-basis: 500px;
+}
+
+.ikea-image-text img {
+  margin-top: 25px;
 }
 
 .ikea-image-text p:first-of-type {
@@ -287,10 +299,8 @@ header.header h1:last-of-type {
 }
 
 .ikea-text {
-  margin-left: 165px;
   column-count: 2;
   column-gap: 30px;
-  width: 77.5%;
   color: var(--color-main-dark);
 }
 
@@ -298,7 +308,7 @@ header.header h1:last-of-type {
   break-inside: avoid;
 }
 
-.ikea-effect > .ikea-image-text > img {
+.ikea-image-text img {
   vertical-align: middle;
 }
 
