@@ -596,7 +596,7 @@ header.header h1:last-of-type {
   text-align: left;
   background: var(--color-light);
   width: 1440px;
-  padding-bottom: 125px;
+  padding-bottom: 120px;
   position: relative;
 }
 
@@ -622,7 +622,7 @@ header.header h1:last-of-type {
 }
 
 .errors-in-planning .header {
-  margin-top: 92px;
+  margin-top: 92.5px;
   margin-bottom: 20px;
   padding-left: 10px;
   background: var(--color-brown);
@@ -668,7 +668,7 @@ header.header h1:last-of-type {
 .errors-image-text p:last-of-type {
   font-size: 34px;
   line-height: 1.2;
-  margin-top: 30px;
+  margin-top: 31px;
 }
 
 .errors-in-planning > .errors-image-text > img {
