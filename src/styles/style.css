@@ -467,12 +467,13 @@ header.header h1:last-of-type {
   color: var(--color-translucent-dark);
   font-size: 24px;
   margin-top: 0;
+  margin-bottom: 25px;
 }
 
 .distortion-image-text p:last-of-type {
   font-size: 34px;
   line-height: 1.2;
-  margin-top: -24px;
+  margin-top: -25px;
 }
 
 .distortion-text {
