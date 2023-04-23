@@ -11,7 +11,7 @@
 }
 
 body {
-  font-family: Open Sans;
+  font-family: "Open Sans";
   font-size: 16px;
   line-height: 1.6em;
   color: var(--color-dark);
@@ -19,8 +19,8 @@ body {
   padding: 0;
 }
 
-h1, h2, h3 {
-  
+h1, h2, h3 
+{
   font-family: Neucha;
   line-height: 1.2em;
 }
@@ -51,16 +51,16 @@ header, section, footer {
 
 header.header {
   text-align: left;
-  background:var(--color-light);
+  background: var(--color-light);
   width: 1440px;
 
   position: relative;
 }
 
 header.header::before {
-  content: '';
+  content: "";
   display: block;
-  background-image: url('../images/background.png'); 
+  background-image: url("../images/background.png"); 
   background-repeat: no-repeat;
   background-size: cover;
   opacity: 0.09;
