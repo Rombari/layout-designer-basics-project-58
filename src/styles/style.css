@@ -325,6 +325,10 @@ header.header h1:last-of-type {
   margin-top: 0;
 }
 
+.ikea-effect h5 {
+  margin-top: 0;
+}
+
 .premature-optimization {
   text-align: left;
   background: var(--color-brown);
