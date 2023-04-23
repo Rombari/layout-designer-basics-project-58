@@ -293,12 +293,15 @@
     min-height: 780px;
     padding-top: 75px;
   
+  
     position: relative;
   }
   .for-test {
     max-width: 1110px;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 0;
+    padding-top: 0;
   }
   
   .premature-optimization::before {
@@ -310,6 +313,7 @@
 
     content: '';
     display: block;
+    background-size: 100%;
     background-image: url('images/background.png'); 
     opacity: 0.09;
     z-index: 1;
@@ -327,6 +331,7 @@
     font-family: 'Neucha';
     position: relative;
     z-index: 2;
+    margin-top: 20px;
   }
   .premature-image-text h2 {
     font-weight: normal;
