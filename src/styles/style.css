@@ -60,7 +60,8 @@ header.header {
 header.header::before {
   content: "";
   display: block;
-  background-image: url("../images/background.png"); 
+  background-image: url("../images/background.png");
+
   background-repeat: no-repeat;
   background-size: cover;
   opacity: 0.09;
@@ -158,7 +159,6 @@ header.header h1:last-of-type {
   margin-top: 10px;
   margin-bottom: 40px;
   font-size: 64px;
-  font-family: "Neucha";
   line-height: 1.0;
   color: var(--color-dark);
 }
@@ -172,7 +172,7 @@ header.header h1:last-of-type {
   height: 891px;
   padding-top: 125px;
   padding-left: 10px;
-  font-family: 'Neucha';
+  font-family: Neucha;
   background: var(--color-main-dark);
 }
 
@@ -243,9 +243,9 @@ header.header h1:last-of-type {
   bottom: 0;
   left: 0;
   right: 0;
-  content: '';
+  content: "";
   display: block;
-  background-image: url('../images/background.png'); 
+  background-image: url("../images/background.png"); 
   background-repeat: no-repeat;
   background-size: cover;
   opacity: 0.09;
@@ -260,7 +260,7 @@ header.header h1:last-of-type {
   background: var(--color-brown);
   color: var(--color-light);
   width: 1110px;
-  font-family: 'Open Sans';
+  font-family: "Open Sans";
 }
 
 .ikea-image-text {
@@ -268,15 +268,11 @@ header.header h1:last-of-type {
   padding-left: 165px;
   column-count: 2;
   column-gap: 30px;
-  font-family: 'Neucha';
+  font-family: "Neucha";
   color: var(--color-main-dark);
   z-index: 2;
   position: relative;
   width: 82.5%;
-}
-
-.ikea-image-text h2 {
-  font-weight: normal;
 }
 
 .ikea-image-text p:first-of-type {
@@ -308,10 +304,6 @@ header.header h1:last-of-type {
 
 .ikea-effect h2 {
   margin-top: -20px;
-}
-
-.ikea-effect h5 {
-  margin: 0;
 }
 
 .premature-optimization {
