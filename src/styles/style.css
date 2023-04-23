@@ -83,7 +83,6 @@ header.header::before {
   background-size: cover;
   opacity: 0.09;
   background-image: url("../images/background.png");
-  
 }
 
 .tota {
@@ -169,7 +168,7 @@ header.header h1:last-of-type {
   margin-top: 10px;
   margin-bottom: 40px;
   font-size: 64px;
-  line-height: 1.0;
+  line-height: 1;
   color: var(--color-dark);
 }
 
@@ -266,7 +265,6 @@ header.header h1:last-of-type {
   opacity: 0.09;
   z-index: 1;
   background-image: url("../images/background.png");
-
 }
 
 .ikea-effect .header {
@@ -298,6 +296,7 @@ header.header h1:last-of-type {
 
 .ikea-image-text img {
   margin-top: 23px;
+  vertical-align: middle;
 }
 
 .ikea-image-text p:first-of-type {
@@ -320,10 +319,6 @@ header.header h1:last-of-type {
 
 .ikea-text div {
   break-inside: avoid;
-}
-
-.ikea-image-text img {
-  vertical-align: middle;
 }
 
 .ikea-effect h2 {
@@ -358,7 +353,6 @@ header.header h1:last-of-type {
   opacity: 0.09;
   z-index: 1;
   background-image: url("../images/background.png");
-
 }
 
 .premature-optimization .header {
@@ -447,7 +441,6 @@ header.header h1:last-of-type {
   opacity: 0.09;
   z-index: 1;
   background-image: url("../images/background.png"); 
-
 }
 
 .distortion-of-novelty .header {
@@ -537,7 +530,6 @@ header.header h1:last-of-type {
   opacity: 0.09;
   z-index: 1;
   background-image: url("../images/background.png"); 
-
 }
 
 .hyperbolic-depreciation .header {
@@ -634,7 +626,6 @@ header.header h1:last-of-type {
   opacity: 0.09;
   z-index: 1;
   background-image: url("../images/background.png"); 
-
 }
 
 .errors-in-planning .header {
