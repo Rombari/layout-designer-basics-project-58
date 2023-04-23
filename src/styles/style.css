@@ -19,23 +19,23 @@ body {
   padding: 0;
 }
 
-h1, h2, h3 
-{
+h1 {
   font-family: Neucha;
+  font-size: 72px;
   line-height: 1.2em;
 }
 
-h1 {
-  font-size: 72px;
-}
-
 h2 {
+  font-family: Neucha;
   font-size: 60px;
   font-weight: normal;
+  line-height: 1.2em;
 }
 
 h3 {
+  font-family: Neucha;
   font-size: 34px;
+  line-height: 1.2em;
 }
 
 ul {
@@ -352,6 +352,14 @@ header.header h1:last-of-type {
   z-index: 2;
 }
 
+.premature-left-side {
+  flex-basis: 550px;
+}
+
+.premature-right-side {
+  flex-basis: 550px;
+}
+
 .premature-image-text img {
   margin-top: 25px;
 }
@@ -364,13 +372,13 @@ header.header h1:last-of-type {
 .premature-text {
   column-count: 2;
   column-gap: 30px;
-  font-family: 'Open Sans';
+  font-family: "Open Sans";
 }
 
 .premature-image-text p:first-of-type {
   color: var(--color-translucent-white);
   font-size: 24px;
-  margin-bottom: 0px;
+  margin-bottom: 0;
 }
 
 .premature-optimization > .premature-image-text > img {
@@ -401,9 +409,9 @@ header.header h1:last-of-type {
   bottom: 0;
   left: 0;
   right: 0;
-  content: '';
+  content: "";
   display: block;
-  background-image: url('../images/background.png'); 
+  background-image: url("../images/background.png"); 
   background-repeat: no-repeat;
   background-size: cover;
   opacity: 0.09;
@@ -425,15 +433,11 @@ header.header h1:last-of-type {
   padding-left: 165px;
   column-count: 2;
   column-gap: 30px;
-  font-family: 'Neucha';
+  font-family: Neucha;
   color: var(--color-main-dark);
   width: 82.5%;
   position: relative;
   z-index: 2;
-}
-
-.distortion-image-text h2 {
-  font-weight: normal;
 }
 
 .distortion-image-text p:first-of-type {
@@ -506,7 +510,7 @@ header.header h1:last-of-type {
   padding-left: 165px;
   column-count: 2;
   column-gap: 30px;
-  font-family: 'Neucha';
+  font-family: Neucha;
   color: var(--color-light);
   width: 71.8%;
   position: relative;
@@ -515,10 +519,6 @@ header.header h1:last-of-type {
 
 .hyperbolic-image-text > div > p:first-of-type {
   font-size: 24px;
-}
-
-.hyperbolic-image-text h2 {
-  font-weight: normal;
 }
 
 .hyperbolic-image-text img {
@@ -574,9 +574,9 @@ header.header h1:last-of-type {
   bottom: 0;
   left: 0;
   right: 0;
-  content: '';
+  content: "";
   display: block;
-  background-image: url('../images/background.png'); 
+  background-image: url("../images/background.png"); 
   background-repeat: no-repeat;
   background-size: cover;
   opacity: 0.09;
@@ -598,7 +598,7 @@ header.header h1:last-of-type {
   padding-left: 165px;
   column-count: 2;
   column-gap: 30px;
-  font-family: 'Neucha';
+  font-family: Neucha;
   color: var(--color-dark);
   width: 82.5%;
   position: relative;
@@ -608,10 +608,6 @@ header.header h1:last-of-type {
 .tota-with-clock {
   width: 578px;
   height: 434px;
-}
-
-.errors-image-text h2 {
-  font-weight: normal;
 }
 
 .errors-text {
@@ -695,7 +691,7 @@ input {
 .airplane {
   position: absolute;
   top: 52px;
-  right: 0px;
+  right: 0;
   height: 50px;
   width: 70px;
   border: none;
@@ -705,7 +701,7 @@ input {
 
 .contact-info > a {
   display: block;
-  color: #00F;
+  color: #00f;
 }
 
 .right-side > p:first-child {
@@ -719,4 +715,4 @@ input {
   background: var(--color-main-dark);
   width: 1110px;
   height: 190px;
-}
+};
