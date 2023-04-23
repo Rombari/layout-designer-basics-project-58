@@ -111,10 +111,6 @@ header.header h1:last-of-type {
   background: var(--color-main);
 }
 
-.text {
-  text-align: left;
-}
-
 .introduction {
   width: 1440px;
   height: 914px;
