@@ -314,7 +314,7 @@ header.header h1:last-of-type {
 .ikea-text {
   column-count: 2;
   column-gap: 30px;
-  font-size: 15.9px;
+  font-size: 15.5px;
   color: var(--color-main-dark);
 }
 
