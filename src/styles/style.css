@@ -8,10 +8,11 @@
   --color-translucent-dark: #908d8b;
   --color-brown: #b09a81;
   --color-blue: #1085c5;
+  --font-family-open-sans: "Open Sans";
 }
 
 body {
-  font-family: "Open Sans";
+  font-family: var(--font-family-open-sans);
   font-size: 16px;
   line-height: 1.6em;
   color: var(--color-dark);
