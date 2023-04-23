@@ -549,6 +549,7 @@ header.header h1:last-of-type {
   position: relative;
   z-index: 2;
 }
+
 .hyperbolic-flex-left {
   flex-basis: 500px;
 }
@@ -591,7 +592,11 @@ header.header h1:last-of-type {
   vertical-align: middle;
 }
 
-.hyperbolic-depreciation h2, h5 {
+.hyperbolic-depreciation h2 {
+  margin: 0;
+}
+
+.hyperbolic-depreciation h5 {
   margin: 0;
 }
 
