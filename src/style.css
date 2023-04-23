@@ -291,8 +291,8 @@
     color: var(--color-light);
     width: 1440px;
     min-height: 780px;
+    padding-top: 75px;
   
- 
     position: relative;
   }
  
@@ -309,9 +309,9 @@
     right: 0;
 
     content: '';
-
+    display: block;
     background-image: url('images/background.png'); 
-    background-repeat: no-repeat;
+    background-repeat: repeat;
     background-size: cover;
     opacity: 0.09;
     z-index: 1;
@@ -357,7 +357,7 @@
     vertical-align: middle;
   }
   .premature-optimization h2 {
-    margin-top: 30px;
+
     color: var(--color-main);
   }
   .premature-optimization h5 {
