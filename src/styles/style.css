@@ -488,8 +488,14 @@ header.header h1:last-of-type {
   background: var(--color-brown);
   color: var(--color-white);
   width: 1440px;
-  height: 930px;
+  padding-bottom: 100px;
   position: relative;
+}
+
+.hyperbolic-full-picture {
+  max-width: 1110px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .hyperbolic-depreciation::before {
@@ -498,9 +504,9 @@ header.header h1:last-of-type {
   bottom: 0;
   left: 0;
   right: 0;
-  content: '';
+  content: "";
   display: block;
-  background-image: url('../images/background.png'); 
+  background-image: url("../images/background.png"); 
   background-repeat: no-repeat;
   background-size: cover;
   opacity: 0.09;
@@ -510,7 +516,6 @@ header.header h1:last-of-type {
 .hyperbolic-depreciation .header {
   margin-top: 94.5px;
   margin-bottom: 20px;
-  margin-left: 165px;
   padding-left: 10px;
   background: var(--color-white);
   color: var(--color-brown);
@@ -518,15 +523,20 @@ header.header h1:last-of-type {
 }
 
 .hyperbolic-image-text {
+  display: flex;
   padding-top: 80px;
-  padding-left: 165px;
-  column-count: 2;
-  column-gap: 30px;
   font-family: Neucha;
   color: var(--color-light);
-  width: 71.8%;
   position: relative;
   z-index: 2;
+}
+.hyperbolic-flex-left {
+  flex-basis: 500px;
+}
+
+.hyperbolic-flex-right {
+  flex-basis: 550px;
+  margin-left: 50px;
 }
 
 .hyperbolic-image-text > div > p:first-of-type {
@@ -538,10 +548,8 @@ header.header h1:last-of-type {
 }
 
 .hyperbolic-text {
-  margin-left: 165px;
   column-count: 2;
   column-gap: 30px;
-  width: 76.8%;
 }
 
 .hyperbolic-text div {
@@ -550,7 +558,7 @@ header.header h1:last-of-type {
 
 .hyperbolic-image-text p:first-of-type {
   color: var(--color-translucent-white);
-  font-size: 25px;
+  font-size: 24px;
   margin-bottom: 0;
 }
 
