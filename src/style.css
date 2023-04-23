@@ -31,7 +31,6 @@
   }
   h3 {
       font-size: 34px;
-      color: var(--color-main);
   }
 
   header, section, footer {
@@ -357,7 +356,8 @@
     vertical-align: middle;
   }
   .premature-optimization h2 {
-    margin-top: -20px;
+    margin-top: 30px;
+    color: var(--color-main);
   }
   .premature-optimization h5 {
     margin: 0;
