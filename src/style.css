@@ -290,16 +290,16 @@
     background: var(--color-brown);
     color: var(--color-light);
     width: 1440px;
-    max-height: 1255px;
     min-height: 780px;
     padding-top: 75px;
  
     position: relative;
   }
-  .premature-optimization > div {
-    margin-left: 165px;
-
-
+ 
+  .for-test {
+    max-width: 1110px;
+    margin-left: auto;
+    margin-right: auto;
   }
   .premature-optimization::before {
     position: absolute;
@@ -321,24 +321,16 @@
   .premature-optimization .header {
     margin-top: 92px;
     margin-bottom: 20px;
-
     padding-left: 10px;
     color: var(--color-brown);
     background: var(--color-white);
-    width: 1110px;
     font-size: 16.5px;
   }
   .premature-image-text {
-
-
-    column-count: 2;
-    column-gap: 30px;
+    display: flex;
     font-family: 'Neucha';
-    width: 81.5%;
-
     position: relative;
     z-index: 2;
-    break-inside: avoid;
   }
   .premature-image-text h2 {
     font-weight: normal;
@@ -352,7 +344,6 @@
     margin-top: -20px;
   }
   .premature-text {
-
     column-count: 2;
     column-gap: 30px;
     font-family: 'Open Sans';
