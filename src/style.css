@@ -301,7 +301,7 @@
     margin-right: auto;
   }
   .premature-optimization > div > ul li{
-    padding-top: -30px;
+    margin-top: -30px;
   }
   .premature-optimization::before {
     position: absolute;
@@ -311,13 +311,10 @@
     right: 0;
 
     content: '';
-
+    display: block;
     background-image: url('images/background.png'); 
     opacity: 0.09;
     z-index: 1;
-    min-width: 1440px;
-    min-height: 780px;
- 
   }
   .premature-optimization .header {
     margin-top: 92px;
