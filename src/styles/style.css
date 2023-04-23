@@ -467,7 +467,6 @@ header.header h1:last-of-type {
   color: var(--color-translucent-dark);
   font-size: 24px;
   margin-top: 0;
-  margin-bottom: 25px;
 }
 
 .distortion-image-text p:last-of-type {
@@ -480,6 +479,7 @@ header.header h1:last-of-type {
   column-count: 2;
   column-gap: 30px;
   color: var(--color-main-dark);
+  width: 1110px;
 }
 
 .distortion-of-novelty > .distortion-image-text > img {
