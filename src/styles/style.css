@@ -596,8 +596,14 @@ header.header h1:last-of-type {
   text-align: left;
   background: var(--color-light);
   width: 1440px;
-  height: 915px;
+  padding-bottom: 100px;
   position: relative;
+}
+
+.errors-full-picture {
+  max-width: 1110px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .errors-in-planning::before {
@@ -618,7 +624,6 @@ header.header h1:last-of-type {
 .errors-in-planning .header {
   margin-top: 91.5px;
   margin-bottom: 20px;
-  margin-left: 165px;
   padding-left: 10px;
   background: var(--color-brown);
   color: var(--color-white);
@@ -626,27 +631,26 @@ header.header h1:last-of-type {
 }
 
 .errors-image-text {
-  padding-top: 100px;
-  padding-left: 165px;
-  column-count: 2;
-  column-gap: 30px;
+  display: flex;
+  padding-top: 101px;
   font-family: Neucha;
   color: var(--color-dark);
-  width: 82.5%;
   position: relative;
   z-index: 2;
 }
 
-.tota-with-clock {
-  width: 578px;
-  height: 434px;
+.errors-flex-left {
+  flex-basis: 550px;
+}
+
+.errors-flex-right {
+  flex-basis: 550px;
+  margin-left: 30px;
 }
 
 .errors-text {
-  margin-left: 165px;
   column-count: 2;
   column-gap: 30px;
-  width: 76.9%;
   color: var(--color-dark);
 }
 
@@ -656,7 +660,8 @@ header.header h1:last-of-type {
 
 .errors-image-text p:first-of-type {
   color: var(--color-main-dark);
-  font-size: 25px;
+  font-size: 24px;
+  margin-top: 0;
   margin-bottom: 0;
 }
 
