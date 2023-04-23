@@ -268,7 +268,7 @@ header.header h1:last-of-type {
 }
 
 .ikea-effect .header {
-  margin-top: 100px;
+  margin-top: 98px;
   margin-bottom: 20px;
   padding-left: 10px;
   background: var(--color-brown);
@@ -314,6 +314,7 @@ header.header h1:last-of-type {
 .ikea-text {
   column-count: 2;
   column-gap: 30px;
+  font-size: 15.9px;
   color: var(--color-main-dark);
 }
 
