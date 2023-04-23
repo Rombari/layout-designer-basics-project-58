@@ -295,11 +295,13 @@
   
     position: relative;
   }
- 
   .for-test {
     max-width: 1110px;
     margin-left: auto;
     margin-right: auto;
+  }
+  .premature-optimization ul {
+    margin-top: 0;
   }
   .premature-optimization::before {
     position: absolute;
@@ -312,7 +314,7 @@
     display: block;
     background-image: url('images/background.png'); 
     background-repeat: repeat;
-    background-size: auto;
+    background-size: 100%;
     opacity: 0.09;
     z-index: 1;
  
