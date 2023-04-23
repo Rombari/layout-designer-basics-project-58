@@ -31,6 +31,7 @@
   }
   h3 {
       font-size: 34px;
+      color: var(--color-main);
   }
 
   header, section, footer {
@@ -347,7 +348,6 @@
     column-count: 2;
     column-gap: 30px;
     font-family: 'Open Sans';
-    width: 87.6%;
   }
   .premature-image-text p:first-of-type {
     color: var(--color-translucent-white);
