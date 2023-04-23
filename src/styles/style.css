@@ -448,7 +448,7 @@ header.header h1:last-of-type {
 
 .distortion-image-text {
   display: flex;
-  padding-top: 102px;
+  padding-top: 101px;
   font-family: Neucha;
   color: var(--color-main-dark);
   position: relative;
