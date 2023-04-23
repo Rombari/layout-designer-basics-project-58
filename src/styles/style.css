@@ -672,7 +672,7 @@ header.header h1:last-of-type {
   margin-bottom: 0;
 }
 
-.errors-flex-right p:last-of-type {
+.errors-in-planning > div.errors-full-picture > div.errors-image-text > div.errors-flex-right > p:last-of-type {
   font-size: 34px;
   line-height: 1.2;
   margin-top: 31px;
@@ -682,7 +682,7 @@ header.header h1:last-of-type {
   vertical-align: middle;
 }
 
-.errors-flex-right h2 {
+.errors-in-planning > div.errors-full-picture > div.errors-image-text > div.errors-flex-right > h2 {
   margin: 0;
 }
 
