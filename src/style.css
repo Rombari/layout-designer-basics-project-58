@@ -300,9 +300,7 @@
     margin-left: auto;
     margin-right: auto;
   }
-  .premature-optimization > div > ul li{
-    margin-top: -30px;
-  }
+  
   .premature-optimization::before {
     position: absolute;
     top: 0;
@@ -333,13 +331,11 @@
   .premature-image-text h2 {
     font-weight: normal;
   }
-  .premature-image-text img {
-    margin-top: 25px;
-  }
+
   .premature-image-text p:last-of-type {
     font-size: 34px;
     line-height: 1.2;
-    margin-top: -20px;
+
   }
   .premature-text {
     column-count: 2;
@@ -349,16 +345,12 @@
   .premature-image-text p:first-of-type {
     color: var(--color-translucent-white);
     font-size: 24px;
-    margin-bottom: -25px;
+
   }
   .premature-optimization > .premature-image-text > img {
     vertical-align: middle;
   }
-  .premature-optimization h2 {
-    margin-top: 30px;
 
-    color: var(--color-main);
-  }
   .premature-optimization h5 {
     margin: 0;
   }
