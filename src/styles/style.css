@@ -79,10 +79,11 @@ header.header::before {
   right: 0;
   content: "";
   display: block;
-  background-image: url("../images/background.png");
   background-repeat: no-repeat;
   background-size: cover;
   opacity: 0.09;
+  background-image: url("../images/background.png");
+  
 }
 
 .tota {
@@ -260,11 +261,12 @@ header.header h1:last-of-type {
   right: 0;
   content: "";
   display: block;
-  background-image: url("../images/background.png"); 
   background-repeat: no-repeat;
   background-size: cover;
   opacity: 0.09;
   z-index: 1;
+  background-image: url("../images/background.png");
+
 }
 
 .ikea-effect .header {
@@ -352,10 +354,11 @@ header.header h1:last-of-type {
   right: 0;
   content: "";
   display: block;
-  background-image: url("../images/background.png"); 
   background-size: 100%;
   opacity: 0.09;
   z-index: 1;
+  background-image: url("../images/background.png");
+
 }
 
 .premature-optimization .header {
@@ -439,11 +442,12 @@ header.header h1:last-of-type {
   right: 0;
   content: "";
   display: block;
-  background-image: url("../images/background.png"); 
   background-repeat: no-repeat;
   background-size: cover;
   opacity: 0.09;
   z-index: 1;
+  background-image: url("../images/background.png"); 
+
 }
 
 .distortion-of-novelty .header {
@@ -528,11 +532,12 @@ header.header h1:last-of-type {
   right: 0;
   content: "";
   display: block;
-  background-image: url("../images/background.png"); 
   background-repeat: no-repeat;
   background-size: cover;
   opacity: 0.09;
   z-index: 1;
+  background-image: url("../images/background.png"); 
+
 }
 
 .hyperbolic-depreciation .header {
@@ -624,11 +629,12 @@ header.header h1:last-of-type {
   right: 0;
   content: "";
   display: block;
-  background-image: url("../images/background.png"); 
   background-repeat: no-repeat;
   background-size: cover;
   opacity: 0.09;
   z-index: 1;
+  background-image: url("../images/background.png"); 
+
 }
 
 .errors-in-planning .header {
@@ -685,7 +691,11 @@ header.header h1:last-of-type {
   vertical-align: middle;
 }
 
-.errors-in-planning h2, h5 {
+.errors-in-planning h2 {
+  margin: 0;
+}
+
+.errors-in-planning h5 {
   margin: 0;
 }
 
@@ -751,7 +761,7 @@ input {
   color: #00f;
 }
 
-.right-side > p:first-child {
+footer.footer > div.only > div.right-side > p:first-child {
   margin-bottom: 10px;
 }
 
