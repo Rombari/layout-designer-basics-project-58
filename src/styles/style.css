@@ -53,20 +53,22 @@ header.header {
   text-align: left;
   background: var(--color-light);
   width: 1440px;
-
+  padding-bottom: 175px;
   position: relative;
 }
 
 header.header::before {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
   content: "";
   display: block;
   background-image: url("../images/background.png");
-
   background-repeat: no-repeat;
   background-size: cover;
   opacity: 0.09;
-  width: 100%;
-  height: 914px;
 }
 
 .tota {
@@ -78,33 +80,30 @@ header.header::before {
 }
 
 header.header h1 {
-  position: absolute;
-  top: 55px;
-  left: 135px;
+  margin-left: 165px;
+  padding-top: 100px;
   color: var(--color-main);
   z-index: 2;
+  font-weight: normal;
 }
 
 header.header h1:last-of-type {
-  position: absolute;
-  top: 225px;
-  left: 135px;
   color: var(--color-dark);
+  margin-top: -150px;
 }
 
 .header .text {
-  position: absolute;
-  top: 550px;
-  left: 135px;
+  margin-top: 200px;
+  margin-left: 165px;
   column-count: 2;
-  column-gap: 20px;
-  width: 80%;
+  column-gap: 30px;
+  width: 1110px;
 }
 
 .button {
   position: absolute;
-  bottom: 100px;
-  right: 570px;
+  bottom: 90px;
+  right: 560px;
   padding: 12px 24px;
   font-weight: bold;
   text-decoration: none;
