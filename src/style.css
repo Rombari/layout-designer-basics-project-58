@@ -351,6 +351,7 @@
   .premature-image-text p:first-of-type {
     color: var(--color-translucent-white);
     font-size: 24px;
+    margin-bottom: -25px;
   }
   .premature-optimization > .premature-image-text > img {
     vertical-align: middle;
