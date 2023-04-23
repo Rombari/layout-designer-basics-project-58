@@ -54,7 +54,7 @@
   header.header::before {
     content: '';
     display: block;
-    background-image: url('images/background.png'); 
+    background-image: url('../images/background.png'); 
     background-repeat: no-repeat;
     background-size: cover;
     opacity: 0.09;
@@ -230,7 +230,7 @@
 
     content: '';
     display: block;
-    background-image: url('images/background.png'); 
+    background-image: url('../images/background.png'); 
     background-repeat: no-repeat;
     background-size: cover;
     opacity: 0.09;
@@ -313,7 +313,7 @@
 
     content: '';
     display: block;
-    background-image: url('images/background.png'); 
+    background-image: url('../images/background.png'); 
     background-size: 100%;
     opacity: 0.09;
     z-index: 1;
@@ -382,7 +382,7 @@
 
     content: '';
     display: block;
-    background-image: url('images/background.png'); 
+    background-image: url('../images/background.png'); 
     background-repeat: no-repeat;
     background-size: cover;
     opacity: 0.09;
@@ -456,7 +456,7 @@
 
     content: '';
     display: block;
-    background-image: url('images/background.png'); 
+    background-image: url('../images/background.png'); 
     background-repeat: no-repeat;
     background-size: cover;
     opacity: 0.09;
@@ -539,7 +539,7 @@
 
     content: '';
     display: block;
-    background-image: url('images/background.png'); 
+    background-image: url('../images/background.png'); 
     background-repeat: no-repeat;
     background-size: cover;
     opacity: 0.09;
