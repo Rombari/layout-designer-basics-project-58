@@ -352,10 +352,6 @@ header.header h1:last-of-type {
   z-index: 2;
 }
 
-.premature-image-text h2 {
-  font-weight: normal;
-}
-
 .premature-image-text img {
   margin-top: 25px;
 }
@@ -709,15 +705,11 @@ input {
 
 .contact-info > a {
   display: block;
-  color: #0000FF;
+  color: #00F;
 }
 
 .right-side > p:first-child {
   margin-bottom: 10px;
-}
-
-.right-side > p:last-child {
-  margin: 0;
 }
 
 .only {
@@ -728,10 +720,3 @@ input {
   width: 1110px;
   height: 190px;
 }
-  
-
-    
-
-    
-
-    
