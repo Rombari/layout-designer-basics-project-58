@@ -440,6 +440,7 @@ header.header h1:last-of-type {
   margin-top: 92px;
   margin-bottom: 20px;
   padding-left: 10px;
+  font-size: 16.5px;
   color: var(--color-white);
   background: var(--color-brown);
   width: 1110px;
@@ -447,7 +448,7 @@ header.header h1:last-of-type {
 
 .distortion-image-text {
   display: flex;
-  padding-top: 102px;
+  padding-top: 99px;
   font-family: Neucha;
   color: var(--color-main-dark);
   position: relative;
@@ -479,7 +480,6 @@ header.header h1:last-of-type {
   column-count: 2;
   column-gap: 30px;
   color: var(--color-main-dark);
-  width: 1110px;
 }
 
 .distortion-of-novelty > .distortion-image-text > img {
