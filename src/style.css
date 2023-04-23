@@ -300,10 +300,11 @@
     max-width: 1110px;
     margin-left: auto;
     margin-right: auto;
+  }
+  .for-test > div, p, h2 {
     margin-top: 0;
     padding-top: 0;
   }
-  
   .premature-optimization::before {
     position: absolute;
     top: 0;
