@@ -411,8 +411,14 @@ header.header h1:last-of-type {
   text-align: left;
   background: var(--color-light);
   width: 1440px;
-  height: 880px;
+  padding-bottom: 100px;
   position: relative;
+}
+
+.distortion-full-picture {
+  max-width: 1110px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .distortion-of-novelty::before {
@@ -433,7 +439,6 @@ header.header h1:last-of-type {
 .distortion-of-novelty .header {
   margin-top: 92px;
   margin-bottom: 20px;
-  margin-left: 165px;
   padding-left: 10px;
   color: var(--color-white);
   background: var(--color-brown);
@@ -441,20 +446,27 @@ header.header h1:last-of-type {
 }
 
 .distortion-image-text {
+  display: flex;
   padding-top: 100px;
-  padding-left: 165px;
-  column-count: 2;
-  column-gap: 30px;
   font-family: Neucha;
   color: var(--color-main-dark);
-  width: 82.5%;
   position: relative;
   z-index: 2;
+}
+
+.distortion-flex-left {
+  flex-basis: 550px;
+}
+
+.distortion-flex-right {
+  flex-basis: 550px;
+  margin-left: 50px;
 }
 
 .distortion-image-text p:first-of-type {
   color: var(--color-translucent-dark);
   font-size: 25px;
+  margin-top: 0;
 }
 
 .distortion-image-text p:last-of-type {
@@ -464,10 +476,8 @@ header.header h1:last-of-type {
 }
 
 .distortion-text {
-  margin-left: 165px;
   column-count: 2;
   column-gap: 30px;
-  width: 77.15%;
   color: var(--color-main-dark);
 }
 
@@ -735,4 +745,4 @@ input {
   background: var(--color-main-dark);
   width: 1110px;
   height: 190px;
-};
+}
