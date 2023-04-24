@@ -462,12 +462,6 @@ header.header h1:last-of-type {
   font-family: var(--font-family-open-sans);
 }
 
-.premature-image-text p:first-of-type {
-  color: var(--color-translucent-white);
-  font-size: 24px;
-  margin-bottom: 0;
-}
-
 .premature-optimization > .premature-image-text > img {
   vertical-align: middle;
 }
