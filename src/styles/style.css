@@ -85,11 +85,71 @@ footer {
   margin-top: 20px;
 }
 
+.introduction p {
+  margin-top: 20px;
+  margin-bottom: 0;
+}
+
+.catalog > .card > p {
+  color: var(--color-main);
+}
+
 .errors-image-text p:first-of-type {
   color: var(--color-main-dark);
   font-size: 24px;
   margin-top: 0;
   margin-bottom: 0;
+}
+
+.ikea-image-text p:first-of-type {
+  color: var(--color-translucent-dark);
+  font-size: 24px;
+  margin-bottom: 0;
+}
+
+.ikea-image-text p:last-of-type {
+  font-size: 34px;
+  line-height: 1.2;
+  margin-top: -19px;
+}
+
+.premature-image-text p:first-of-type {
+  color: var(--color-translucent-white);
+  font-size: 24px;
+  margin-bottom: 0;
+}
+
+.premature-image-text p:last-of-type {
+  font-size: 34px;
+  line-height: 1.2;
+}
+
+.distortion-image-text p:first-of-type {
+  color: var(--color-translucent-dark);
+  font-size: 24px;
+  margin-top: 0;
+}
+
+.distortion-image-text p:last-of-type {
+  font-size: 34px;
+  line-height: 1.2;
+  margin-top: -19px;
+}
+
+.hyperbolic-image-text p:first-of-type {
+  color: var(--color-translucent-white);
+  font-size: 24px;
+  margin-bottom: 0;
+}
+
+.hyperbolic-image-text p:last-of-type {
+  font-size: 34px;
+  line-height: 1.2;
+  margin-top: 30px;
+}
+
+.hyperbolic-image-text > div > p:first-of-type {
+  font-size: 24px;
 }
 
 footer.footer > div.only > div.right-side > p:first-child {
@@ -185,11 +245,6 @@ header.header h1:last-of-type {
   height: 569px;
 }
 
-.introduction p {
-  margin-top: 20px;
-  margin-bottom: 0;
-}
-
 .catalog {
   width: 1440px;
   height: 1000px;
@@ -220,10 +275,6 @@ header.header h1:last-of-type {
 
 .catalog a {
   text-decoration: none;
-}
-
-.catalog > .card > p {
-  color: var(--color-main);
 }
 
 .card {
@@ -332,18 +383,6 @@ header.header h1:last-of-type {
   vertical-align: middle;
 }
 
-.ikea-image-text p:first-of-type {
-  color: var(--color-translucent-dark);
-  font-size: 24px;
-  margin-bottom: 0;
-}
-
-.ikea-image-text p:last-of-type {
-  font-size: 34px;
-  line-height: 1.2;
-  margin-top: -19px;
-}
-
 .ikea-text {
   column-count: 2;
   column-gap: 30px;
@@ -415,11 +454,6 @@ header.header h1:last-of-type {
 
 .premature-image-text img {
   margin-top: 25px;
-}
-
-.premature-image-text p:last-of-type {
-  font-size: 34px;
-  line-height: 1.2;
 }
 
 .premature-text {
@@ -499,18 +533,6 @@ header.header h1:last-of-type {
   margin-left: 30px;
 }
 
-.distortion-image-text p:first-of-type {
-  color: var(--color-translucent-dark);
-  font-size: 24px;
-  margin-top: 0;
-}
-
-.distortion-image-text p:last-of-type {
-  font-size: 34px;
-  line-height: 1.2;
-  margin-top: -19px;
-}
-
 .distortion-text {
   column-count: 2;
   column-gap: 30px;
@@ -581,22 +603,6 @@ header.header h1:last-of-type {
 .hyperbolic-flex-right {
   flex-basis: 550px;
   margin-left: 50px;
-}
-
-.hyperbolic-image-text p:first-of-type {
-  color: var(--color-translucent-white);
-  font-size: 24px;
-  margin-bottom: 0;
-}
-
-.hyperbolic-image-text p:last-of-type {
-  font-size: 34px;
-  line-height: 1.2;
-  margin-top: 30px;
-}
-
-.hyperbolic-image-text > div > p:first-of-type {
-  font-size: 24px;
 }
 
 .hyperbolic-text {
