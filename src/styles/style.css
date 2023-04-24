@@ -63,6 +63,20 @@ footer {
   padding: 0;
 }
 
+.ikea-effect h2 {
+  margin-top: 0;
+}
+
+.premature-optimization h2 {
+  margin-top: 0;
+  margin-bottom: 0;
+  color: var(--color-main);
+}
+
+.distortion-of-novelty h2 {
+  margin-top: -23px;
+}
+
 header.header {
   text-align: left;
   background: var(--color-light);
@@ -322,10 +336,6 @@ header.header h1:last-of-type {
   break-inside: avoid;
 }
 
-.ikea-effect h2 {
-  margin-top: 0;
-}
-
 .ikea-effect h5 {
   margin-top: 0;
 }
@@ -407,12 +417,6 @@ header.header h1:last-of-type {
 
 .premature-optimization > .premature-image-text > img {
   vertical-align: middle;
-}
-
-.premature-optimization h2 {
-  margin-top: 0;
-  margin-bottom: 0;
-  color: var(--color-main);
 }
 
 .premature-optimization h5 {
@@ -497,10 +501,6 @@ header.header h1:last-of-type {
 
 .distortion-of-novelty > .distortion-image-text > img {
   vertical-align: middle;
-}
-
-.distortion-of-novelty h2 {
-  margin-top: -23px;
 }
 
 .distortion-of-novelty h5 {
